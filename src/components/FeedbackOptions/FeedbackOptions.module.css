@@ -1,0 +1,24 @@
+.feedbackBtnList {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 20px 0;
+}
+
+.feedbackBtnListItem {
+  padding: 10px;
+}
+
+.feedbackBtn {
+  display: inline-block;
+  cursor: pointer;
+  text-transform: capitalize;
+
+}
+
+.feedbackBtn:active {
+  background-color: grey;
+  color: #fff;
+
+  transition: all 50ms linear;
+}
